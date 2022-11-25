@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Checkbox Input</title>
+    <title>Dropdown List</title>
   </head>
   <body>
     <section id="overlay">
@@ -18,7 +18,7 @@
     			<input type="text" name="patty" id="patty">
         </section>
         <hr>
-        <section class="patties">
+  <section class="patties">
           <label for="amount">How many patties would you like?</label>
           <input type="number" name="amount" id="amount">
         </section>
@@ -31,22 +31,36 @@
           <span>Well-Done</span>
         </section>
         <hr>
-        
         <section class="toppings">
           <span>What toppings would you like?</span>
           <br>
-          <!--Add your code below for the first checkbox-->
-					<input id="lettuce" name="topping" type="checkbox" value="lettuce">
-					<label for="lettuce">Lettuce</label>
-          <!--Add your code below for the second checkbox-->
-					<input id="tomato" name="topping" type="checkbox" value="tomato">
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
           <label for="tomato">Tomato</label>
-          <!--Add your code below for the third checkbox-->
-					<input id="onion" name="topping" type="checkbox" value="onion">
+          <input type="checkbox" name="topping" id="onion" value="onion">
           <label for="onion">Onion</label>
+        </section>
+        <hr>
+        <section class="cheesy">
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+
+        <section class="bun-type">
+					<label for="bun">What type of bun would you like?</label>
+          <!--Add your code below-->
+					
+          
         </section>
         
       </form>
     </section>
   </body>
 </html>
+
